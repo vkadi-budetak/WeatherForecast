@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <!-- styles -->
-     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+
     <div class="container">
-        <form>
-            <input type="text" id="city-name-input" class="bordered-block">
-            <button id="get-weather-btn" class="bordered-block">Get weather</button>
-        </form>
-        <div class="weather">
-            <div class="weather-description-wrapper">
-                <p id="weather-description" class="weather-data"></p>
-                <img src="" alt="" id="weather-icon">
-            </div>
-            <p id="temperature" class="weather-data"></p>
-            <p id="wind-speed" class="weather-data"></p>
-        </div>
+
+       
+            <form>
+                <input class="bordered-block" type="text" id="city-name-input" >
+                <button class="bordered-block" id="get-weather-btn" >Get weather</button>
+            </form>
+            
+                <div class="weather">
+                    <div class="weather-description-wrapper">
+                        <p class="weather-data" id="weather-description"></p>
+                        <img src="" alt="" id="weather-icon">
+                    </div>
+                    <p class="weather-data" id="temperature"></p>
+                    <p class="weather-data" id="wind-speed"></p>
+                </div>
+            
+       
     </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
